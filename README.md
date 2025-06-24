@@ -1,4 +1,3 @@
- 
 # Repository containing various Terraform code
  
 Lots of Terraform recipes for doing things, aimed for copy and pasting into projects.
@@ -292,7 +291,6 @@ Applying this **will take a very long time**, because both ACM and especially Cl
 | tags | AWS Tags to add to all resources created (where possible); see https://aws.amazon.com/answers/account-management/aws-tagging-strategies/ | map | `<map>` | no |
 | viewer_https_only | Set this to `false` if you need to support insecure HTTP access for clients, in addition to HTTPS | string | `"true"` | no |
 <!-- terraform-docs:end -->
-
 
 
 # [aws/aws_ec2_ebs_docker_host](aws/aws_ec2_ebs_docker_host)
